@@ -1,0 +1,666 @@
+@import url(base.css);
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f2f2f2;
+}
+header{
+	width: 100%;
+	height: 44px;
+	background: #444444;
+}
+header main{
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main div{
+	font-size: 10px;
+	color: #8a8aaa;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	margin: 0 auto ;
+	background: #333333;
+}
+.max{
+	background: #333;
+}
+.max ul{
+	height: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.min ul{
+	height: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin: 0 auto ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul li a{
+	font-size: 14px;
+	color: white;
+}
+.list-box ul li{
+	width: auto;
+	height: 580px;
+	background: #fafafa;
+	margin-bottom: 12px;
+	/* overflow: hidden; */
+	display: flex;
+	justify-content:center;
+	position: relative;
+}
+.iphonex h1{
+	font-size: 52px;
+	text-align: center;
+	line-height: 64px;
+	font-weight: bold;
+	margin-top: 85px;
+	color: #111111;
+}
+.iphonex h2{
+	font-size: 24px;
+	line-height: 64px;
+	text-align: center;
+	color: #111111;
+}
+.iphonex div{
+	width: 876px;
+	height: 194px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background: url('../img/iphone_x_large.jpg')no-repeat center/cover;
+}
+.list-box .iphone8{
+	display: flex;
+	justify-content: center;
+	background: #b00e23;
+}
+.iphone8 span{
+	display: block;
+	width: 76px;
+	height: 32px;
+	border: 1px solid white;
+	color: white;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	margin: 50px auto 0;
+}
+.iphone8 h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 22px auto 0;
+}
+.iphone8 a{
+	display: block;
+	height: 580px;
+	width: 100%;
+	position: relative;
+}
+.iphone8 a .box1{
+	width: 180px;
+	height: 24px;
+	margin: 20px auto 0;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.iphone8 a .box1 i:hover{
+	text-decoration: underline;
+	color: white;
+}
+.iphone8 a .box2{
+	display: block;
+	width: 364px;
+	height: 365px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	background: url('../img/hero_large.png') no-repeat center/cover;
+}
+/* ipad 开始 */
+.list-box .ipad{
+	background: #f5f5f5;
+}
+.ipad h1{
+	font-size: 52px;
+	text-align: center;
+	line-height: 64px;
+	font-weight: bold;
+	margin-top: 45px;
+	color: #111111;
+}
+.ipad h2{
+	font-size: 24px;
+	line-height: 64px;
+	text-align: center;
+	color: #111111;
+}
+.ipad h2 .ipad-br{
+		display: none;
+	}
+.ipad div{
+	/* width: 909px; */
+	height: 344px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../img/ipad_large.jpg')no-repeat center/cover;
+}
+/* ipad 结束 */
+/* box-pic 开始 */
+.box-pic ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box-pic ul .pic1{
+	width: 50%;
+	height: 592px;
+	background: #f5f5f5;
+	border-bottom: 12px solid white;
+	border-left: 12px solid white;
+	border-right: 6px solid white;
+	box-sizing: border-box;
+	background: url('../img/wwdc_large.jpg') no-repeat center/cover;
+}
+.box-pic ul .pic2{
+	width: 50%;
+	height: 592px;
+	background: #f5f5f5;
+	border-bottom: 12px solid white;
+	border-left: 6px solid white;
+	border-right: 12px solid white;
+	box-sizing: border-box;
+	background: url('../img/music_three_months_large.jpg') no-repeat center/cover;
+}
+.wrap{
+	/* width: 742px; */
+	height: 152px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+	line-height: 30px;
+}
+.wrap span i{
+	display: block;
+	font-size: 32px;
+	color: #000;
+	font-weight: bold;
+	margin: 10px auto;
+	text-align: center;
+}
+.wrap h4{
+	font-size: 20px;
+	color: #000;
+	line-height: 28px;
+}
+/* box-pic 结束 */
+/* footer max开始 */
+.foo-max{
+	/* width: 976px; */
+	height: 310px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.foo-max ul{
+	width: 100%;
+}
+.foo-max ul li{
+	width: 20%;
+	height: 224px;
+	float: left;
+	margin-top: 40px;
+}
+.foo-max ul li span{
+	display: block;
+	width: 100%;
+	font-size: 11px;
+	margin-bottom: 14px;
+	font-weight: 600;
+	color: #333;
+}
+.foo-max ul li a{
+	display: block;
+	font-size: 10px;
+	color: #555;
+	margin-bottom: 14px;
+}
+.foo-max ul li a:hover{
+	text-decoration: underline;
+}
+/* footer max结束 */
+/* footer min开始 */
+.foo-min{
+	width: 100%;
+	height: 252px;
+}
+.foo-min ul li{
+	display: block;
+	width: 100%;
+	height:30px; 
+	padding: 5px;
+	box-sizing: border-box;
+	/* background: pink; */
+	border-bottom: 1px solid #bbb;
+}
+.foo-min ul li a{
+	display: flex;
+	justify-content: space-between;
+}
+.foo-min ul li h4{
+	color: #222;
+	line-height: 20px;
+	font-size: 14px;
+}
+/* footer min结束 */
+
+/* info 开始 */
+.info-max{
+	height: 110px;
+	margin: 10px auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.info-t{
+	width: 100%;
+	height: 24px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.info-t a{
+	color: #1f70c3;
+}
+.info-t a:hover{
+	text-decoration: underline;
+}
+.info-t p{
+	margin-top: 10px;
+	font-size: 10px;
+}
+.info-b ul li{
+	width: 100%;
+	height: 24px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+}
+.info-b ul li:first-child a{
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	width: auto;
+	font-size: 10px;
+	color: #222;
+	border-right: 1px solid #d6d6d6;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.info-b a:hover{
+	text-decoration: underline;
+}
+.info-b ul li a:last-child{
+	border: none;
+	width: auto;
+}
+.info-b-l{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info-b-r{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info-b-r a{
+	width: auto;
+}
+.info-b-r img{
+	width: 15px;
+	height: 70%;
+}
+.info-b ul li:last-child{
+	justify-content: left;
+	margin: 10px auto;
+}
+.info-b ul li:last-child a{
+	color: #222;
+}
+/* info 结束 */
+
+/* 媒体查询 */
+/*screen大于1024时*/
+@media screen and (min-width:1024px){
+	header main{
+		width:976px;
+	}
+	.max ul{
+		width: 976px;
+	}
+	.min{
+		display: none;
+	}
+	.iphone8 h1 .box-br{
+		display: none;
+	}
+	.foo-max{
+		width: 976px;
+	}
+	.foo-min{
+		display: none;
+	}
+	.info-max{
+		width: 976px;
+	}
+	.info-min{
+		display: none;
+	}
+}
+/*screen小于1024时*/
+@media  screen and (max-width: 1024px){
+	header main{
+		padding:0 20px;
+		box-sizing: border-box;
+	}
+	.max{
+		
+		display: block;
+	}
+	.min{
+		display: none;
+	}
+	.list-box{
+		width: 100%;
+	}
+	/* .list-box ul li{
+		height: 580px;
+	} */
+	/* iphonex */
+	.iphonex h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 110px;
+		text-align: center;
+	}
+	.iphonex h2{
+		font-size: 22px;
+		line-height: 62px;
+	}
+	.iphonex div{
+	width: 704px;
+	height: 148px;
+	margin-top: 60px;
+	background: url('../img/iphone_x_medium.jpg')no-repeat center/cover;
+	}
+	/* ipad 开始*/
+	.ipad h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.ipad h2{
+		font-size: 22px;
+		line-height: 62px;
+	}
+	.ipad h2 .ipad-br{
+		display: none;
+	}
+	.ipad div{
+	/* width: 794px; */
+	height: 224px;
+	padding-top: 150px;
+	background: url('../img/ipad_medium.jpg')no-repeat center/cover;
+	}
+	/* ipad 结束 */
+	/* iphone8 */
+	.iphone8 h1{
+	font-size: 46px;
+	}
+	.iphone8 h1 .box-br{
+		display: none;
+	}
+	.iphone8 a .box1{
+	width: 170px;
+	height: 20px;
+	margin: 20px auto 0;
+	}
+	.iphone8 a .box2{
+	width: 326px;
+	height: 327px;
+	background: url('../img/hero_medium.png')no-repeat center/cover;
+	}
+
+	/* box-pic 开始 */
+	.box-pic ul .pic1{
+	width: 50%;
+	height: 475px;
+	background: url('../img/wwdc_medium.jpg') no-repeat center/cover;
+	}
+	.box-pic ul .pic2{
+	width: 50%;
+	height: 475px;
+	background: url('../img/music_three_months_medium.jpg') no-repeat center/cover;
+	}
+	.wrap{
+	display: flex;
+	width: 100%;
+	height: 126px;
+	line-height: 24px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	}
+	.wrap span i{
+	font-size: 26px;
+	font-weight: bold;
+	margin: 6px auto;
+	}
+	.wrap h4{
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	}
+	/*box-pic 结束*/
+	/* footer 开始*/
+	.foo-min{
+		display: none;
+	}
+	/* foo 结束*/
+	/* info 开始*/
+	.info-min{
+		display: none;
+	}
+	/* info 结束*/
+}
+
+
+/*screen小于768时*/
+@media screen and (max-width:768px){
+	header main{
+		padding:0 20px;
+	}
+	.max{
+		display: none;
+	}
+	.min{
+	
+		display: block;
+	}
+	.list-box ul li{
+		height: 642px;
+	}
+	.iphonex h1{
+		font-size: 28px;
+		line-height: 48px;
+		margin-top: 58px;
+	}
+	.iphonex h2{
+		font-size: 18px;
+		line-height: 48px;
+	}
+	.iphonex div{
+	width: 207px;
+	height: 414px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background: url('../img/iphone_x_small.jpg')no-repeat center/cover;
+	}
+	/* iphone8 */
+	.iphone8 span{
+		width: 68px;
+		height: 28px;
+		font-size: 14px;
+		line-height: 28px;
+		margin: 50px auto 0;
+	}
+	.iphone8 h1{
+		line-height: 36px;
+		font-size: 22px;
+	}
+	.iphone8 h1 .box-br{
+		display: block;
+	}
+	.iphone8 a .box1{
+		width: 170px;
+		height: 20px;
+		margin: 10px auto 20px;
+	}
+	.iphone8 a .box2{
+		width: 320px;
+		height: 367px;
+		bottom: -62px;
+		background: url('../img/hero_small.png')no-repeat center/cover;
+	}
+	/* ipad 开始*/
+	.ipad h1{
+		font-size: 34px;
+		line-height: 40px;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.ipad h2{
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.ipad h2 .ipad-br{
+		display: block;
+	}
+	.ipad div{
+	width: 324px;
+	height: 224px;
+	padding-top: 150px;
+	background: url('../img/ipad_small.jpg')no-repeat center/cover;
+	}
+	/* ipad 结束 */
+	/* box-pic 开始 */
+	.box-pic ul .pic1{
+	width: 100%;
+	height: 527px;
+	border-bottom: 12px solid white;
+	border-left: 0;
+	border-right: 0;
+	background: url('../img/wwdc_small.jpg') no-repeat center/cover;
+	}
+	.box-pic ul .pic2{
+	width: 100%;
+	height: 527px;
+	border-bottom: 12px solid white;
+	border-left: 0;
+	border-right: 0;
+	background: url('../img/music_three_months_small.jpg') no-repeat center/cover;
+	}
+	.wrap{
+	width: 100%;
+	height: 126px;
+	line-height: 24px;
+	}
+	.wrap span i{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 6px auto;
+	}
+	.wrap h4{
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	}
+	/*box-pic 结束*/
+	/* foo-max 开始*/
+	.foo-max{
+		display: none;
+	}
+	/* foo-max 結束*/
+	/* foo-min 开始*/
+	.foo-min{
+		display: block;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.foo-min ul li h4{
+		font-size: 12px;
+		font-weight: 500;
+	}
+	/* foo-min 结束*/
+	/* info 开始 */
+	.info-max{
+		display: none;
+	}
+	.info-min{
+		display: block;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.info-min .info-t{
+		border: none;
+	}
+	.info-min .info-r a{
+		border: none;
+	}
+	.info-min .info-b-m {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+	}
+	.info-min .info-b-m a{
+		display: inline-block;
+		line-height: 10px;
+		margin:5px 0;
+		padding-right: 10px;
+		box-sizing: border-box;
+		border-right: 1px solid #333;
+		color: #222;
+	}
+	/* info 结束 */
+}
