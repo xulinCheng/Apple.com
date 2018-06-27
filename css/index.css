@@ -5,6 +5,7 @@
 }
 body{
 	background: #f2f2f2;
+	height: auto;
 }
 header{
 	width: 100%;
@@ -58,7 +59,7 @@ nav ul li a{
 	height: 580px;
 	background: #fafafa;
 	margin-bottom: 12px;
-	/* overflow: hidden; */
+	overflow: hidden;
 	display: flex;
 	justify-content:center;
 	position: relative;
@@ -78,7 +79,7 @@ nav ul li a{
 	color: #111111;
 }
 .iphonex div{
-	width: 876px;
+	width: 912px;
 	height: 194px;
 	position: absolute;
 	left: 0;
@@ -165,7 +166,7 @@ nav ul li a{
 		display: none;
 	}
 .ipad div{
-	/* width: 909px; */
+	width: 909px;
 	height: 344px;
 	position: absolute;
 	left: 0;
@@ -225,11 +226,13 @@ nav ul li a{
 /* box-pic 结束 */
 /* footer max开始 */
 .foo-max{
-	/* width: 976px; */
+	width: 100%;
 	height: 310px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 .foo-max ul{
 	width: 100%;
@@ -261,7 +264,7 @@ nav ul li a{
 /* footer min开始 */
 .foo-min{
 	width: 100%;
-	height: 252px;
+	/* height: 252px; */
 }
 .foo-min ul li{
 	display: block;
@@ -269,8 +272,8 @@ nav ul li a{
 	height:30px; 
 	padding: 5px;
 	box-sizing: border-box;
-	/* background: pink; */
 	border-bottom: 1px solid #bbb;
+	overflow: hidden;
 }
 .foo-min ul li a{
 	display: flex;
@@ -281,13 +284,18 @@ nav ul li a{
 	line-height: 20px;
 	font-size: 14px;
 }
+.num{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+}
 /* footer min结束 */
 
 /* info 开始 */
 .info-max{
 	height: 110px;
 	margin: 10px auto;
-	padding-top: 30px;
+	padding: 30px 20px;
 	box-sizing: border-box;
 }
 .info-t{
@@ -435,9 +443,10 @@ nav ul li a{
 		display: none;
 	}
 	.ipad div{
-	/* width: 794px; */
+	width: 794px;
 	height: 224px;
 	padding-top: 150px;
+	box-sizing: border-box;
 	background: url('../img/ipad_medium.jpg')no-repeat center/cover;
 	}
 	/* ipad 结束 */
@@ -500,12 +509,11 @@ nav ul li a{
 	}
 	/* info 结束*/
 }
-
-
 /*screen小于768时*/
 @media screen and (max-width:768px){
 	header main{
 		padding:0 20px;
+		box-sizing: border-box;
 	}
 	.max{
 		display: none;
@@ -579,7 +587,7 @@ nav ul li a{
 	}
 	.ipad div{
 	width: 324px;
-	height: 224px;
+	height: 410px;
 	padding-top: 150px;
 	background: url('../img/ipad_small.jpg')no-repeat center/cover;
 	}
@@ -629,8 +637,23 @@ nav ul li a{
 		box-sizing: border-box;
 	}
 	.foo-min ul li h4{
+		display: inline-block;
 		font-size: 12px;
 		font-weight: 500;
+	}
+	.foo-min-hide{
+		width: 100%;
+		/* height: 180px; */
+		background: #f2f2f2;
+	}
+	.foo-min-hide span{
+		display: block;
+		width: 100%;
+		height: 30px;
+		text-align: left;
+		line-height: 30px;
+		font-size: 10px;
+		color: #666;
 	}
 	/* foo-min 结束*/
 	/* info 开始 */
@@ -662,5 +685,6 @@ nav ul li a{
 		border-right: 1px solid #333;
 		color: #222;
 	}
+
 	/* info 结束 */
 }
